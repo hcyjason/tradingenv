@@ -1,6 +1,6 @@
 from tradingenv.events import Observer, EventNewObservation
 from tradingenv.features import Feature
-from gym.spaces import Space
+from gymnasium.spaces import Space
 from datetime import datetime
 from typing import Dict, Any, Sequence, Callable, Union
 from collections import deque
