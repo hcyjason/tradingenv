@@ -9,6 +9,7 @@
 from tradingenv.spaces import PortfolioSpace
 from abc import ABC, abstractmethod
 import gymnasium.spaces
+import gymnasium as gym
 
 
 class AbstractPolicy(ABC):
