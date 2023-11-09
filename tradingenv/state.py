@@ -9,7 +9,7 @@ import numpy as np
 import functools
 import math
 import copy
-import gym
+import gymnasium as gym
 
 
 class IState(Observer):
