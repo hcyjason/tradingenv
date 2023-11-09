@@ -12,6 +12,7 @@ from tradingenv.contracts import AbstractContract
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
 from typing import Union, Sequence
 import gymnasium.spaces
+import gymnasium as gym
 import numpy as np
 import exchange_calendars as xcals
 
