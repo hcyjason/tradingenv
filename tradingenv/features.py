@@ -4,7 +4,7 @@ from sklearn.exceptions import NotFittedError
 from datetime import datetime
 from typing import Dict, Any
 import numpy as np
-import gym.spaces
+import gymnasium.spaces
 import copy
 
 
