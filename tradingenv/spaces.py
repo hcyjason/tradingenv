@@ -4,7 +4,7 @@ PortfolioSpace._make_rebalancing_request. See examples below."""
 import tradingenv
 from tradingenv.broker.rebalancing import Rebalancing
 from tradingenv.contracts import AbstractContract, Cash
-from gym.spaces import Space, Discrete, Box
+from gymnasium.spaces import Space, Discrete, Box
 from typing import Sequence, Union
 from datetime import datetime
 import numpy as np
