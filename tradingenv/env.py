@@ -39,7 +39,7 @@ import pandas_market_calendars
 import pandas as pd
 import numpy as np
 import threading
-import gym
+import gymnasium as gym
 
 
 class TradingEnv(gym.Env):
